@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formularios</title>
+</head>
+<body>
+<form action = "/ejemplo.html" method = "POST">
+	<div align="center">
+	<h1>PERFIL DE EMPLEADO</h1>
+    </div>
+	<p>Llene los campos siguientes<br><strong>Nota:</strong>la informacion proporcionada sera tratada confidencialmente</p>
+	<label for="fecha">Fecha:</label>
+	<input type="text" name="fecha" id="fecha"><br>
+	<div align="center">
+    <h3><strong>DATOS PERSONALES</strong></h3>
+    </div>
+    <label for="apell">Apellido Paterno:</label>
+	<input type="text" name="apell" id="apell">
+    <label for="apellido">Apellido Materno:</label>
+	<input type="text" name="apellido" id="apellido">
+	<label for="nombre" >Nombre(s):</label>
+	<input type="text" name="nombre" id="nombre">
+    <label for="edad">Edad:</label>
+    <input id="edad" name="edad" type="number" step="1">
+    <br>
+    <label for="direccion" >Direccion:</label>
+	<input type="text" name="direccion" id="direccion">
+    <label for="tel">Telefono Particular:</label>
+	<input type="text" name="tel" id="tel">
+	<p><strong>Sexo:</strong></p>
+	<input type="radio" id="masculino" name="respuesta" value="M">
+	<label for="masculino">M</label>
+	<input type="radio" id="femenino" name="respuesta" value="F">
+	<label for="femenino">F</label>
+	<br>
+	<label for="colonia" >Colonia o Municipio:</label>
+	<input type="text" name="colonia" id="colonia">
+    <label for="codigo" >Codigo Postal:</label>
+	<input type="text" name="codigo" id="codigo">
+    <label for="nacimiento" >Lugar de Nacimiento:</label>
+	<input type="text" name="nacimiento" id="nacimiento">
+    <p><strong>Fecha de Nacimiento:</strong></p>
+    <label for="dia">Dia:</label>
+	<input id="dia" name="dia" type="number" step="1">
+	<label for="mes">Mes:</label>
+	<input type="text" list="meses" id="mes" name="mes">
+	<datalist id="meses">
+		<option value="Enero"></option>
+		<option value="Febrero"></option>
+		<option value="Marzo"></option>
+		<option value="Abril"></option>
+		<option value="Mayo"></option>
+		<option value="Junio"></option>
+		<option value="Julio"></option>
+		<option value="Agosto"></option>
+		<option value="Septiembre"></option>
+		<option value="Octubre"></option>
+		<option value="Noviembre"></option>
+		<option value="Diciembre"></option>
+	</datalist>
+	<label for="año">Año:</label>
+	<input type="text" list="años" id="año" name="año"><br>
+	<datalist id="años">
+		<option value="2010"></option>
+		<option value="2009"></option>
+		<option value="2008"></option>
+		<option value="2007"></option>
+		<option value="2006"></option>
+		<option value="2005"></option>
+		<option value="2004"></option>
+		<option value="2003"></option>
+		<option value="2002"></option>
+		<option value="2001"></option>
+		<option value="2000"></option>
+		<option value="1999"></option>
+		<option value="1998"></option>
+		<option value="1997"></option>
+		<option value="1996"></option>
+		<option value="1995"></option>
+	</datalist>
+	<br>
+	<label for="nacion">Nacionalidad:</label>
+	<input type="text" name="nacion" id="nacion">
+    <br>
+    <label for="correo">Correo Electronico:</label>
+	<input type="text" name="correo" id="correo">
+    <label for="estatura">Estatura:</label>
+	<input type="text" name="estatura" id="estatura">
+    <label for="peso">Peso:</label>
+	<input type="text" name="peso" id="peso">
+    <br>
+    <p><strong>Personas que dependan de usted:</strong></p>
+    <label for="hijos">Hijos</label>
+    <input id="hijos" name="hijos" type="checkbox" value="hijos">
+    <label for="conyugue">Conyugue</label>
+    <input id="conyugue" name="conyugue" type="checkbox" value="conyugue">
+    <label for="padres">Padres</label>
+    <input id="padres" name="padres" type="checkbox" value="padres">
+    <label for="otros">Otros</label>
+    <input id="otros" name="otros" type="checkbox" value="otros">
+    <br>
+    <p><strong>Estado civil:</strong></p>
+    <label for="Soltero">Soltero</label>
+    <input id="Soltero" name="Soltero" type="checkbox" value="Soltero">
+    <label for="casado">Casado</label>
+    <input id="casado" name="casado" type="checkbox" value="casado">
+    <label for="o">Otro</label>
+    <input id="o" name="otros" type="checkbox" value="o">
+    <br>
+    <div align="center">
+    <hr3><strong>DOCUMENTACION</strong></hr3><br>
+    </div>
+    <label for="curp">Clave Unica de Registro de Poblacion(C.U.R.P):</label><br>
+	<input type="text" name="curp" id=curp>
+    <br>
+    <label for="rfc">Registro Federal de Contribuyentes(R.F.C):</label><br>
+	<input type="text" name="rfc" id=rfc><br>
+    <label for="seguro">Numero de Seguro Social:</label><br>
+	<input type="text" name="seguro" id="seguro">
+    <br>
+    <p><strong>¿Tiene licencia de manejo?</strong></p>
+    <label for="no">No</label>
+    <input id="no" name="no" type="checkbox" value="no">
+    <label for="si">Si</label>
+    <input id="si" name="si" type="checkbox" value="si"><br>
+    <label for="clase">Clase y Numero de Licencia:</label>
+	<input type="text" name="clase" id="clase">
+    <br>
+    <div align="center">
+    <h3><strong>CREACION DE USARIO Y CONTRASEÑA</strong></h3>
+    </div><br>
+    <label for="usuario">Usuario:</label>
+	<input type="text" name="usuario" id="usuario">
+    <br>
+	<label for="clave">Contraseña:</label>
+	<input type="password" id="clave" name="clave">
+	<br>
+	<label for="clave">Confirmacion de contraseña:</label>
+	<input type="password" id="clave" name="clave">
+	<br>
+	<label for="cali">Del 1 al 10,¿Cuanto califica nuetra empresa?</label><br>
+	<input id="cali" name="cali" type="range" min="0" max="10" step="1"> <br>
+    <label for="blog">Comentarios o Queja:</label>
+    <hr>
+    <textarea id="blog" name="blog" rows="5" cols="50"></textarea>
+    <br>
+    <div align="center">
+    	<input type="submit" value="Enviar" >
+    </div> 
+</form>
+
+</body>
+</html>
