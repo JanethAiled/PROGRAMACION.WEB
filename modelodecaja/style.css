@@ -1,0 +1,32 @@
+
+/*Titulos*/
+h1{ font:bold; color: #8B0000; text-align:center; }
+h2{ font:bold; color: #8B0000; text-align:center; }
+
+/*Todos los parrafos de la pagina */
+p{ color: #191970; }
+
+/*Todos los parrafos contenidos en #primero */
+.primero p{ color: #808080; }
+
+/* Todos los enlaces en la pagina */
+a{ color: #DA70D6 }
+
+/* Los elementos "em" contenidos en #primero */
+.primero em{ background: #000; padding: .1em;}
+
+/* Todos los elementos "em" de clase "especial" en toda la pagina */
+em.especial{ background: #B8860B; border: 1px solid	#FFA500; padding: .1em;}
+
+/* Elementos "span" contenidos en .normal */
+.normal span{ font-weight: bold;}
+
+/*Modelo de caja*/
+div{
+ 	border: 30px solid #FF6347;
+ 	background: #C0C0C0;
+ 	height: 800px;
+ 	width: 1000px;
+ 	padding: 50px 50px 60px 90px;
+ 	margin: 40px 30px 70px 80px;
+ }

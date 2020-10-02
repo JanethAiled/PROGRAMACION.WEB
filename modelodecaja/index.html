@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head> 
+	<meta charset="UTF-8">
+  <link href = "style.css" type="text/css" rel="stylesheet">
+    <title>Modelo de Cajas</title>
+</head>
+<body>
+  <h1><strong>Modelo de cajas:</strong></h1>
+  <div id="primero">
+    <p>El Modelo de cajas como su nombre indica se refiere a que  <span><em> en CSS tdoos los elementos de HTML, </em></span> son tratados como "cajas". El modelo de cajas es el comportamiento de CSS que hace que todos los elementos de las paginas se representen mediante cajas rectangulares.</p>
+  
+    <p>Las cajas de una pagina <strong>se crean automaticamente</strong>. Cada vez que se inserta una etiqueta HTML, se crea una nueva caja rectangular que encierra los contenidos de ese elemento.</p>
+
+    <p>Las cajas de las paginas no son visibles a simple vista por que inicalmente no muestran ningun color de fondo ningun borde. Los navegadores crean y colocan las cajas de forma automatica, pero CSS permite modificar todas sus caracteristicas. Cada una de las cajas esta formada por seis partes.</p>
+
+    <p>Las partes que componen cada caja y su orden son las siguientes: </p>
+    <ol>
+      <li>Contenido <em>(content)</em>: Se trata del contenido HTML del elemento (las palabras de un parrafo, una imagen, el texto de una lista de elementos, etc.)</li>
+      <li>Relleno <em>(padding)</em>: Espacio libre opcional existente entre el contenido y el borde.</li>
+      <li>Borde <em>(border)</em>: Linea que encierra completamente el contenido y su relleno.</li>
+      <li>Imagen de fondo <em>(background image)</em>: Imagen que se muestra por detras del contenido y el espacio de relleno.</li>
+      <li>Color de fondo <em>(background color)</em>: Color que se muestra por detras del contenido y el espacio de relleno.</li>
+      <li>Margen <em>(margin)</em>: Separacion opcional existente entra la caja y el resto de cajas adyacentes</li>
+    </ol>
+  <img src = "https://uniwebsidad.com/static/libros/imagenes/css/f0403.gif" alt = "El modelo de cajas CSS" />
+  
+  </div>
+   <div class="normal">
+    <h2><strong>Cajas en bloque y en linea:</strong></h2>
+    <p> En CSS, en general, hay dos tipos de cajas: <strong>cajas en bloque</strong> y <strong>cajas en linea</strong>. Estas caracteristicas se refieren al modo como se comporta la caja en terminos de flujo de pagina y en relacion con otras cajas de la pagina. Si una caja se define como un bloque, se comporta de las maneras siguientes:</p>
+    <ul>
+      <li>La caja fuerza un salto de linea al llegar al final de la linea.</li>
+      <li>La caja se extenddera en la direccion de la linea para llenar todo el espacio disponible que haya en su contenedor. En la mayoria de los casos, significa que la caja sera tan ancha como su contenido y llenara el 100% del espacio disponible.</li>
+      <li>Se representa las propiedades <em class="especial"> with </em> y <em class="especial">height</em>.</li>
+      <li>El relleno, el margen y el borde mantienen a los otros elementos alejados de la caja.</li>
+    </ul>
+
+    <p>A menos que decidamos cambiar el tipo de visualizacion a en linea, elementos como los encabezados <em class="especial">&#60h1&#62</em> y todos los elementos <em class="especial"> &#60p&#62</em> usan por defecto block como tipo de visualizacion externa. Si una caja tiene una visualizacion externa de tipo inline, entonces: </p>
+
+    <ul>
+      <li>La caja no fuerza ningun salto de linea al llegar al final de la linea.</li>
+      <li>Las propiedades <em class="especial">width</em> y <em class="especial">height</em> no se aplican.</li>
+      <li>Se aplican relleno, margen y bordes verticales, pero no mantienen alejadas otras cajas en linea.</li>
+      <li>Se aplican relleno, margen y bordes horizontales, y mantienen alejadas otras cajas en linea.</li>
+    </ul>
+
+    <p>El lemento <em class="especial">&#60a&#62</em>, que se utiliza para los enlaces, y los elementos <em class="especial">&#60span&#62</em>, <em class="especial">&#60em&#62</em> y <em class="especial">&#60strong&#62</em> son ejemplos de elementos que se muestran en linea por defecto.</p>
+
+  </div>
+  <div>
+    <h2><strong>Bibliografias:</strong></h2>
+    <p><a href="https://developer.mozilla.org/es/docs/Learn/CSS/Building_blocks/El_modelo_de_caja">El modelo de caja</a></p>
+    <p><a href="https://uniwebsidad.com/libros/css/capitulo-4">Capitulo 4. Modelo de cajas</a></p>
+    <p><a href="https://silicodevalley.com/el-modelo-de-caja-en-css/">El Modelo de Caja en CSS</a></p>
+  </div>
+
+
+</body>
+</html>
