@@ -1,0 +1,15 @@
+/*titulo*/
+h1{color: black; text-align: center;}
+/*parrafos*/
+div{
+	text-align: center;
+ 	border: 30px solid #808B96;
+ 	background: #16A085;
+ 	height: 500px;
+ 	width: 800px;
+ 	padding: 50px 50px 60px 90px;
+ 	margin: 40px 30px 70px 80px;
+ 	overflow: auto;
+ 	box-sizing: border-box;
+ }
+body{background-image: url(https://img.freepik.com/foto-gratis/viejo-fondo-madera-textured-oscuro-grunge-superficie-vieja-textura-madera-marron_7182-333.jpg?size=626&ext=jpg);}

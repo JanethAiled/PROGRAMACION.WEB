@@ -1,0 +1,16 @@
+/*titulos*/
+h1{color: red; text-align: center;}
+h2{color: red; text-align: center;}
+/*parrafos*/
+p{color: #16A085;  font: oblique bold 120% cursive}
+div{
+ 	border: 30px solid #F4DBD8;
+ 	background: #A9CCE3;
+ 	height: 500px;
+ 	width: 1000px;
+ 	padding: 50px 50px 60px 90px;
+ 	margin: 40px 30px 70px 80px;
+ 	overflow: auto;
+ 	box-sizing: border-box;
+ }
+body{background-color: #EBDEF0}
