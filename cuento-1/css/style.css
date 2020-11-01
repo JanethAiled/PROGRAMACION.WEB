@@ -1,0 +1,158 @@
+body{background-image:url(https://image.freepik.com/vector-gratis/hoja-libro-blanco-textura-madera-fondo_64749-135.jpg);
+	background-size: 100%;
+}
+
+*{
+	margin:0px;
+}
+p{
+	
+	font-family: "comic sans ms";
+	font-size: 16px;
+	color: #6495ED;
+}
+a{
+	text-decoration-line: none;
+	color: white;
+	text-align: center;
+}
+.titulo{
+	background-color: #E9967A;
+	padding: 30px;
+	color: white;
+	font-family: "comic sans ms";
+	font-size: 40px;
+	margin-bottom: 0px;
+	text-align: center;
+}
+button{
+	background-color: #E9967A;
+	color: white;
+	border: 1px solid white;
+}
+button:hover{
+	background-color: white ;
+	color: #E9967A;
+}
+#pr1{
+	 position: absolute;
+	 width: 90px;
+	 top: 30%;
+	 right: 65%;
+	 font-family: "comic sans ms";
+	 visibility: hidden;
+}
+#pr2{
+	position: absolute;
+	width: 90px;
+	top: 30%;
+	font-family: "comic sans ms";
+	right: 25%;
+    visibility: visible;
+}
+#boton3, #boton4, #boton5, #boton6, #boton7, #boton8, #boton9, #boton10{
+	position: absolute;
+	width: 90px;
+	top: 30%;
+	font-family: "comic sans ms";
+	right: 25%;
+}
+#a2, #a3, #a4, #a5, #a6, #a7, #a8, #a9, #a10{
+	position: absolute;
+	width: 90px;
+	top: 30%;
+	right: 65%;
+	font-family: "comic sans ms";
+	
+}
+#p1,#p2,#p3,#p4,#p5,#p6,#p7,#p8,#p9{
+	width:430px;
+	height:400px;
+	left:55%;
+	top: 320px;
+	right: 80%;
+    position: absolute;
+    z-index: 2;
+    visibility: hidden;
+    /*overflow: auto;*/
+    border: 1px solid black;
+    
+}
+#boton3{
+	visibility: hidden;
+}
+#boton4{
+ visibility: hidden;
+}
+#boton5{
+ visibility: hidden;
+}
+#boton6{
+ visibility: hidden;
+}
+#boton7{
+ visibility: hidden;
+}
+#boton8{
+ visibility: hidden;
+}
+#boton9{
+ visibility: hidden;
+}
+#boton10{
+ visibility: hidden;
+}
+#a2{
+	visibility: hidden;
+}
+#a3{
+ visibility: hidden;
+}
+#a4{
+ visibility: hidden;
+}
+#a5{
+ visibility: hidden;
+}
+#a6{
+ visibility: hidden;
+}
+#a7{
+ visibility: hidden;
+}
+#a8{
+ visibility: hidden;
+}
+#a9{
+	visibility: hidden;
+}
+#a10{
+	visibility: hidden;
+}
+#p1{
+	visibility: hidden;
+}
+#p2{
+ visibility: hidden;
+}
+#p3{
+ visibility: hidden;
+}
+#p4{
+ visibility: hidden;
+}
+#p5{
+ visibility: hidden;
+}
+#p6{
+ visibility: hidden;
+}
+#p7{
+ visibility: hidden;
+}
+#p8{
+ visibility: hidden;
+}
+#p9{
+ visibility: hidden;
+}

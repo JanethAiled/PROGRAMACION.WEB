@@ -1,0 +1,23 @@
+body{background-color: #F5DEB3}
+p{
+	color: black;
+	text-align: justify;
+	font-family: Trebuchet MS;
+	font-size: 25px;
+}
+form{
+	color: black;
+	text-align: center;
+	font-family: Trebuchet MS;
+	font-size: 18px;
+}
+input{
+	width: 20%;
+	
+}
+#uno{
+	width: 30%;
+	padding:40px;
+	display: none;
+	margin: auto;
+}
