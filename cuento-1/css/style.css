@@ -3,7 +3,7 @@ body{background-image:url(https://image.freepik.com/foto-gratis/fondo-papel-viej
 }
 p{
 	font-family: "comic sans ms";
-	font-size: 20px;
+	font-size: 18px;
 	color: black;
 }
 #titulo{
@@ -74,10 +74,9 @@ button:hover{
       
 }
 #img1,#img2,#img3,#img4,#img5,#img6,#img7,#img8,#img9{
-	width:40%;
-	height:380px;
-	top: 390px;
-	left: 28%;
+	width:80%;
+	top: 590px;
+	left: 120px;
 	position: absolute;
 }
 #boton3{
