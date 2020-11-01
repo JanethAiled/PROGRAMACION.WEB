@@ -16,7 +16,6 @@ const a6 = document.getElementById('a6');
 const a7 = document.getElementById('a7');
 const a8 = document.getElementById('a8');
 const a9 = document.getElementById('a9');
-const a10 = document.getElementById('a10');
 const pag1 = document.getElementById('p1');
 const pag2 = document.getElementById('p2');
 const pag3 = document.getElementById('p3');
@@ -35,6 +34,7 @@ const img6 = document.getElementById('img6');
 const img7 = document.getElementById('img7');
 const img8 = document.getElementById('img8');
 const img9 = document.getElementById('img9');
+
 
 
 // inicio

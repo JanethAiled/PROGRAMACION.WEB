@@ -1,26 +1,17 @@
 body{background-image:url(https://image.freepik.com/foto-gratis/fondo-papel-viejo-vendimia-grunge_1373-431.jpg);
 	background-size: 100%;
 }
-
-*{
-	margin:0px;
-}
 p{
 	font-family: "comic sans ms";
 	font-size: 20px;
-	color: #6495ED;
-}
-a{
-	text-decoration-line: none;
-	color: white;
-	text-align: center;
+	color: black;
 }
 #titulo{
 	background-color: #E9967A;
 	color: white;
 	text-align: center;
 	width: 99%;
-	font-family: Trebuchet MS;
+	font-family: "comic sans ms";
 	padding: 30px;
 	
 }
@@ -33,56 +24,61 @@ button:hover{
 	background-color: white ;
 	color: #E9967A;
 }
-#img1,#img2,#img3,#img4,#img5,#img6,#img7,#img8,#img9{
-	width:100%;
-	height:400px;
-	margin-top: 10%;
-	top: 200px;
-	left: 15%;
-	position: absolute;
-}
 #pr1{
 	 position: absolute;
-	 width: 90px;
-	 top: 30%;
+	 width: 150px;
+	 height: 50px;
+	 top: 18%;
 	 right: 65%;
 	 font-family: "comic sans ms";
+	 font-size: 15px;
 	 visibility: hidden;
 }
 #pr2{
 	position: absolute;
-	width: 90px;
-	top: 30%;
+	width: 150px;
+	height: 50px;
+	top: 18%;
 	font-family: "comic sans ms";
+	font-size: 15px;
 	right: 25%;
     visibility: visible;
 }
 #boton3,#boton4,#boton5,#boton6,#boton7,#boton8,#boton9,#boton10{
 	position: absolute;
-	width: 90px;
-	top: 30%;
+	width: 150px;
+	height: 50px;
+	top: 18%;
 	font-family: "comic sans ms";
+	font-size: 15px;
 	right: 25%;
 }
 #a2,#a3,#a4,#a5,#a6,#a7,#a8,#a9,#a10{
 	position: absolute;
-	width: 90px;
-	top: 30%;
+	width: 150px;
+	height: 50px;
+	top: 18%;
 	right: 65%;
 	font-family: "comic sans ms";
+	font-size: 15px;
 	
 }
 #p1,#p2,#p3,#p4,#p5,#p6,#p7,#p8,#p9{
-	width:500px;
-	height:435px;
-	left:55%;
-	top: 50%;
-	right: 80%;
+	width:90%;
+	height:320px;
+	left:5%;
+	top: 30%;
 	margin-left: 6px;
-    position: absolute;
     visibility: hidden;
-    /*border: 1px solid black;*/
-    
+    position: absolute;
+      
+}
+#img1,#img2,#img3,#img4,#img5,#img6,#img7,#img8,#img9{
+	width:40%;
+	height:380px;
+	top: 390px;
+	left: 28%;
+	position: absolute;
 }
 #boton3{
 	visibility: hidden;
