@@ -1,4 +1,4 @@
-body{background-image:url(https://image.freepik.com/vector-gratis/hoja-libro-blanco-textura-madera-fondo_64749-135.jpg);
+body{background-image:url(https://image.freepik.com/foto-gratis/fondo-papel-viejo-vendimia-grunge_1373-431.jpg);
 	background-size: 100%;
 }
 
@@ -6,9 +6,8 @@ body{background-image:url(https://image.freepik.com/vector-gratis/hoja-libro-bla
 	margin:0px;
 }
 p{
-	
 	font-family: "comic sans ms";
-	font-size: 16px;
+	font-size: 20px;
 	color: #6495ED;
 }
 a{
@@ -16,14 +15,14 @@ a{
 	color: white;
 	text-align: center;
 }
-.titulo{
+#titulo{
 	background-color: #E9967A;
-	padding: 30px;
 	color: white;
-	font-family: "comic sans ms";
-	font-size: 40px;
-	margin-bottom: 0px;
 	text-align: center;
+	width: 99%;
+	font-family: Trebuchet MS;
+	padding: 30px;
+	
 }
 button{
 	background-color: #E9967A;
@@ -33,6 +32,14 @@ button{
 button:hover{
 	background-color: white ;
 	color: #E9967A;
+}
+#img1,#img2,#img3,#img4,#img5,#img6,#img7,#img8,#img9{
+	width:100%;
+	height:400px;
+	margin-top: 10%;
+	top: 200px;
+	left: 15%;
+	position: absolute;
 }
 #pr1{
 	 position: absolute;
@@ -50,14 +57,14 @@ button:hover{
 	right: 25%;
     visibility: visible;
 }
-#boton3, #boton4, #boton5, #boton6, #boton7, #boton8, #boton9, #boton10{
+#boton3,#boton4,#boton5,#boton6,#boton7,#boton8,#boton9,#boton10{
 	position: absolute;
 	width: 90px;
 	top: 30%;
 	font-family: "comic sans ms";
 	right: 25%;
 }
-#a2, #a3, #a4, #a5, #a6, #a7, #a8, #a9, #a10{
+#a2,#a3,#a4,#a5,#a6,#a7,#a8,#a9,#a10{
 	position: absolute;
 	width: 90px;
 	top: 30%;
@@ -66,16 +73,15 @@ button:hover{
 	
 }
 #p1,#p2,#p3,#p4,#p5,#p6,#p7,#p8,#p9{
-	width:430px;
-	height:400px;
+	width:500px;
+	height:435px;
 	left:55%;
-	top: 320px;
+	top: 50%;
 	right: 80%;
+	margin-left: 6px;
     position: absolute;
-    z-index: 2;
     visibility: hidden;
-    /*overflow: auto;*/
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     
 }
 #boton3{
@@ -154,5 +160,32 @@ button:hover{
  visibility: hidden;
 }
 #p9{
+ visibility: hidden;
+}
+#img1{
+ visibility: hidden;
+}
+#img2{
+ visibility: hidden;
+}
+#img3{
+ visibility: hidden;
+}
+#img4{
+ visibility: hidden;
+}
+#img5{
+ visibility: hidden;
+}
+#img6{
+ visibility: hidden;
+}
+#img7{
+ visibility: hidden;
+}
+#img8{
+ visibility: hidden;
+}
+#img9{
  visibility: hidden;
 }
