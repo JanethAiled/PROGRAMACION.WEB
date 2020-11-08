@@ -1,0 +1,29 @@
+body{
+	margin: 20px;
+	background-color: #2469A0;
+}
+*{
+	color: white;
+	font-family: serif;
+}
+a{
+	color: white;
+}
+#sub{
+	text-align: center;
+}
+#uno{
+	background-color: #10BCE3;
+
+
+}
+#dos, #cuatro, #seis{
+	background-color: #3DD6AF;
+	padding: 10px;
+}
+#ti-siete{
+	text-align: center;
+}
+#tres, #cinco, #siete{
+	padding: 10px;
+}

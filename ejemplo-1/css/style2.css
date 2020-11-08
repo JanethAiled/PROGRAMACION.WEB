@@ -1,0 +1,19 @@
+body{
+	margin: 20px;
+	background-color: #374050;
+}
+*{
+	color: white;
+	font-family: serif;
+	font-size: 17px;
+}
+#barra, #barr{
+	color: #FF5245;
+	background-color: white;
+}
+#titulo{
+	background-color: #FF5245;
+}
+#uno{
+	background-color: #FfC938;
+}

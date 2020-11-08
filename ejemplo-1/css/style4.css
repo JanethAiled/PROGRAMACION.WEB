@@ -1,0 +1,23 @@
+body{
+	margin: 20px;
+	background-color: #213058;
+}
+*{
+	font-family: serif;
+	font-size: 17px;
+}
+#barra, #barr{
+	color: black;
+	background-color: #F0E6D7;
+}
+#titulo{
+	background-color: #F0E6D7;
+	color: white;
+}
+#uno, #dos, #tres{
+	background-color: #F0E6D7;
+	color: black;
+}
+#con1,#con2,#con3,#con4,#con5,#con6,#con7,#con8{
+	color: white;
+}
