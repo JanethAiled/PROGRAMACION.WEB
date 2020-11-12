@@ -1,0 +1,19 @@
+body{
+	margin: 20px;
+	background-color: #97C5D8;
+}
+*{
+	font-size: 17px;
+	color: white;
+	font-family: monospace;
+}
+#titulo{
+	background-color: #53787D;
+}
+#sub{
+	text-align: center;
+}
+#ca_uno, #ca_dos, #ca_tres, #ca_cuatro{
+	background-color: #C2DBDF;
+	cursor: pointer;
+} 

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE-edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Protocolo HTTP</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style3.css">
+</head>
+<body>
+	<header class="jumbotron" id="titulo">
+		<div class="conteiner">
+			<div class="row">
+				<div class="col-12 col-sm-8"><br>
+					<h1>Metodos de Petición</h1>
+					<p>Los métodos de petición especifican la operación que quiere realizar el cliente en el servidor</p>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div>
+		<ol class="col-12 breadcrumb" id="barra">
+			<li class="breadcrumb-item active"><a href="index.html" id="barr">Inicio</a></li>
+		</ol>
+	</div>
+
+	<div class="conteiner">
+		<h2>Método GET</h2><br>
+		<div class="row">
+			<div class="col-sm">El método HTTP GET solicita una representación del recurso especificado. Las solicitudes que usan GET solo deben recuperar datos.</div>
+			<div class="col-sm">Se invoca cuando se introduce una URL en el navegador, cuando se pincha sobre un hiperenlace o cuando se envía un formulario GET. Permite enviar parámetros al servidor en la URI (o URL) (conocidos como Query String).</div>
+		</div>
+		<h2>Método POST</h2><br>
+		<div class="row">
+			<div class="col-sm-6">El método HTTP POST envía datos al servidor. El tipo del cuerpo de la solicitud es indicada por la cabecera  Content-Type. La diferencia entre PUT y POST es que PUT es idempotente: llamarlo una o varias veces sucesivamente tiene el mismo efecto (no tiene efecto secundario // colateral), mientras que varios POST idénticos pueden tener efectos adicionales, como pasar una orden muchas veces. Una solicitud POST es tipicamente enviada por un formulario HTML y resulta en un cambio en el servidor.</div>
+			<div class="col-sm-5">Cuando la solicitud POST es enviada por otro método distinto a un formulario HTML el cuerpo puede aceptar cualquier tipo. Como se describe en la especificación HTTP 1.1.</div>
+			<div class="col-sm-12">El método POST está diseñado para permitir un método uniforme que cubra las siguientes funciones:
+				<ul>
+					<li>Modificación de recursos existentes.</li>
+					<li>Publicar un mensaje en un tablón de anuncios, grupo de noticias, lista de correos, o grupos similares de artículos.</li>
+					<li>Agragar un nuevo usuario a través de un modal de suscripciones.</li>
+					<li>Proveer un conjunto de datos, como resultado del envío de un formulario, a un proceso data-handling.</li>
+					<li>Extender una base de datos a través de una operación de concatenación.</li>
+				</ul>
+			</div>
+		</div>
+		<h2>Método OPTIONS</h2><br>
+		<div class="row">
+			<div class="col-sm">El método HTTP OPTIONS solicita opciones de comunicación permitidas para una URL o servidor determinados. Un cliente puede especificar una URL con este método, o un asterisco (*) para referirse a todo el servidor.</div>
+			<div class="col-sm">Funciona para solicitar al servidor información sobre las opciones de comunicación disponibles de un recurso determinado.</div>
+		</div>
+		<h2>Método HEAD</h2><br>
+		<div class="row">
+			<div class=" col-6 col-sm-12">El método HTTP HEAD solicita los encabezados que se devolverían si la URL de la solicitud HEAD se solicitara con el método HTTP GET. </div>
+			<div class="col-6 col-sm-12">Similar a GET pero el servidor devuelve cabeceras. Usado para implementar caches de navegadores, informar al usuario del tamaño del recurso antes de intentar recuperarlo, etc.</div>
+		</div>
+		<h2>Método PUT</h2><br>
+		<div class="row">
+			<div class="col-6 col-sm-12"">La petición HTTP PUT crea un nuevo elemento o reemplaza una representación del elemento de destino con los datos de la petición.</div>
+			<div class="col-6 col-sm-12"">La diferencia entre el método PUT y el método POST es que PUT es un método idempotente: llamarlo una o más veces de forma sucesiva tiene el mismo efecto (sin efectos secundarios), mientras que una sucesión de peticiones POST idénticas pueden tener efectos adicionales, como envíar una orden varias veces</div>
+		</div>
+		<h2>Método DELETE</h2><br>
+		<div class="row">
+			<div class="col-6 col-sm-12"">Se usa para eliminar recursos del servidor.</div>
+			<div class="col-6 col-sm-12"">Por seguridad no es habitual que los servidores web permitan subir recursos usando el método DELETE.</div>
+		</div>
+		<h2>Método TRACE</h2><br>
+		<div class="row">
+			<div class="col-6 col-sm-12"">El método HTTP TRACE  efectua una prueba de bucle de mensaje por el camino al recurso objetivo proporcionando un útil mecanismo de debugging. Sirve para trazar la ruta de una etición a través de proxies y cortafuegos.</div>
+			<div class="col-6 col-sm-12"">Usado para depurar errores en redes complejas.</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>

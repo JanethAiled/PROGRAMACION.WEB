@@ -1,0 +1,17 @@
+body{
+	margin: 20px;
+	background-color: #DDABA1;
+}
+*{
+	color: white;
+	font-family: monospace;
+	font-size: 17px;
+}
+#barra, #barr{
+	color: #EDE1D6;
+	background-color: white;
+
+}
+#titulo{
+	background-color: #EDE1D6;
+}

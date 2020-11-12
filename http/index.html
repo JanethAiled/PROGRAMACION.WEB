@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE-edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Protocolo HTTP</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css"> 
+</head>
+<body>
+	<nav class="navbar navbar-dark navbar-expand-sm bg-primary fixed-top">
+		<div class="container">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<a class="navbar-brand mr-auto" href="https://sites.google.com/site/jorgeozuna12345/unidad-iv/-que-es-un-protocolo-de-investigacion">HTTP</a>
+			<div class="collapse navbar-collapse"  id="Navbar">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item"><a class="nav-link" href="index1.html">Arquitectura</a></li>
+					<li class="nav-item"><a class="nav-link" href="index6.html">Flujo</a></li>
+					<li class="nav-item"><a class="nav-link" href="index2.html">Mensajes de Petición</a></li>
+					<li class="nav-item"><a class="nav-link" href="index3.html">Metodos de Petición</a></li>
+					<li class="nav-item"><a class="nav-link" href="index4.html">Cabeceras</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<header class="jumbotron" id="titulo">
+		<div class="conteiner">
+			<div class="row">
+				<div class="col-12 col-sm-8"><br>
+					<h1>Protocolo HTTP</h1>
+				    <p>HTTP, de sus siglas en inglés: "Hypertext Transfer Protocol", es el nombre de un protocolo el cual nos permite realizar una petición de datos y recursos, como pueden ser documentos HTML. Es la base de cualquier intercambio de datos en la Web, y un protocolo de estructura cliente-servidor.</p>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div class="conteiner">
+		<div class="row">
+			<div class="col-sm-12">Es un protocolo sin estado que utiliza TCP como protocolo de transporte y determina los tipos de peticiones que los clientes pueden enviar, así como el formato y estructura de las respuestas. También define una estructura de metadatos, en forma de cabeceras que se envían tanto en las peticiones como en las respuestas. Diseñado a principios de la década de 1990, HTTP es un protocolo ampliable, que ha ido evolucionando con el tiempo.</div>
+			<div class="col-sm-12">Es lo que se conoce como un protocolo de la capa de aplicación, y se transmite sobre el protocolo TCP, o el protocolo encriptado TLS. No solo se usa para transmitir imágenes o vídeos, o enviar datos o contenido a los servidores, como en el caso de los formularios de datos. HTTP puede incluso ser utilizado para transmitir partes de documentos, y actualizar páginas Web en el acto.</div>
+		</div>
+		<h2 id="sub">Caracteristicas:</h2><br>
+		<div class="row">
+			<div class="col-6 col-sm-6" id="ca_uno"><h4>Es sencillo:</h4><br>HTTP esta pensado y desarrollado para ser leído y fácilmente interpretado por las personas, haciendo de esta manera más facil la depuración de errores, y reduciendo la curva de aprendizaje para las personan que empieza a trabajar con él</div>
+			<div class="col-6  col-sm-6" id="ca_dos"><h4>Es extensible:</h4><br>Es fácil de ampliar y de experimentar con él. Funcionalidades nuevas pueden desarrollarse, sin más que un cliente y su servidor, comprendan la misma semántica sobre las cabeceras de HTTP.</div>
+		</div>
+		<div class="row" >
+			<div class="col-6  col-sm-6" id="ca_tres"><h4>Es un protocolo sin estado:</h4>No guarda ningún dato entre dos peticiones en la mísma sesión. Esto crea problemáticas, en caso de que los usuarios requieran interactuar con determinadas páginas Web de forma ordenada y coherente. El uso de HTTP cookies, si permite guardar datos con respecto a la sesión de comunicación. Usando la capacidad de ampliación del protocolo HTTP, las cookies permiten crear un contexto común para cada sesión de comunicación.</div>
+			<div class="col-6 col-sm-6" id="ca_cuatro"><h4>HTTP y Conexiones:</h4>Una conexión se gestiona al nivel de la capa de trasporte, y por tanto queda fuera del alcance del protocolo HTTP. HTTP, se apoya en el uso del protocolo TCP, que está orientado a conexión, aunque una conexión continua no es necesaria siempre.</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
