@@ -26,18 +26,24 @@
 
 	<div class="conteiner">
 		<div class="row">
-			<div class="col-sm">
-				<ol>
-					<li>Abre una conexión TCP: la conexión TCP se usará para hacer una petición, o varias, y recibir la respuesta.</li>
-					<li>Hacer una petición HTTP: Los mensajes HTTP (previos a HTTP/2) son legibles en texto plano</li>
-					<li>Leer la respuesta enviada por el servidor:</li>
-					<li>Cierre o reuso de la conexión para futuras peticiones.</li>
-				</ol> 
-			</div>
+			<button class="col-sm-6" id="btn_uno">Paso 1</button>
+			<button class="col-sm-6" id="btn_dos">Paso 2</button>
+		</div>
+		<div class="row" id="uno">
+			<div class="col-sm-6" id="btu">1. Abre una conexión TCP: la conexión TCP se usará para hacer una petición, o varias, y recibir la respuesta.</div>
+			<div class="col-sm-6" id="btd">2.Hacer una petición HTTP: Los mensajes HTTP (previos a HTTP/2) son legibles en texto plano <img src="img/flujo_1.jpg" id="img1"> </div>
+		</div>
+		<div class="row">
+			<button class="col-sm-6" id="btn_tres">Paso 3</button>
+			<button class="col-sm-6" id="btn_cuatro">Paso 4</button>
+		</div>
+		<div class="row" id="dos">
+			<div class="col-sm-6" id="btt">3.Leer la respuesta enviada por el servidor. <img src="img/flujo_2.jpg" id="img2" id="btc"> </div>
+			<div class="col-sm-6" id="btc">4.Cierre o reuso de la conexión para futuras peticiones.</div>
 		</div>
 	</div>
 	<script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="js/script.js"></script>
+	<script type="text/javascript" src="js/script6.js"></script>
 </body>
 </html>

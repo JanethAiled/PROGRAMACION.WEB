@@ -15,3 +15,21 @@ body{
 #titulo{
 	background-color: #EDE868;
 }
+
+button{
+	background-color: #9DC39C;
+	color: black;
+	margin-top: 8px;
+	border: 1px white;
+}
+#uno, #dos{
+	text-align: center;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	font-weight: 35px;
+	text-align: center;
+	visibility: hidden;
+}
+#img1, #img2{
+	visibility: hidden;
+}
