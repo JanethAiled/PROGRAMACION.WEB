@@ -28,13 +28,12 @@
 			<div class="col-sm">HTTP es un protocolo basado en el principio de cliente-servidor: las peticiones son enviadas por una entidad: el agente del usuario (o un proxy a petición de uno). Cada petición individual se envía a un servidor, el cuál la gestiona y responde. Entre cada petición y respuesta, hay varios intermediarios, normalmente denominados proxies, los cuales realizan distintas funciones, como: gateways o caches.</div>
 			<div class="col-sm">Es gracias a la arquitectura en capas de la Web, que estos intermediarios, son transparentes al navegador y al servidor, ya que HTTP se apoya en los protocolos de red y transporte. HTTP es un protocolo de aplicación, y por tanto se apoya sobre los anteriores. Aunque para diagnosticar problemas en redes de comunicación, las capas inferiores son irrelevantes para la definición del protocolo HTTP.</div>
 		</div>
-		<div class="row">
-			<img class="col-sm-12" id="img1" src="img/sistemas.jpg">
+		<div class="btn" >
 			<button id="btn_1">Toca aqui</button>
+			<img class="col-sm-12" id="img1" src="img/sistemas.jpg">
 		</div>
-		<h2>Cliente</h2><br>
-		<div class="row">
-			<div class="col-sm-12">El agente del usuario, es cualquier herramienta que actué en representación del usuario. Esta función es realizada en la mayor parte de los casos por un navegador Web. El navegador es siempre el que inicia una comunicación (petición), y el servidor nunca la comienza (hay algunos mecanismos que permiten esto, pero no son muy habituales).</div>
+		<div class="row" id="prrf_1">
+			<div class="col-sm-12"><h2>Cliente</h2><br>El agente del usuario, es cualquier herramienta que actué en representación del usuario. Esta función es realizada en la mayor parte de los casos por un navegador Web. El navegador es siempre el que inicia una comunicación (petición), y el servidor nunca la comienza (hay algunos mecanismos que permiten esto, pero no son muy habituales).</div>
 			<div class="col-sm-6">Para mostrar una pagina web:
 				<ol>
 					<li>El navegador envía una petición de documento HTML al servidor.</li>
@@ -49,9 +48,8 @@
 			<div class="col-sm">Un servidor conceptualmente es una unica entidad, aunque puede estar formado por varios elementos, que se reparten la carga de peticiones, (load balancing), u otros programas, que gestionan otros computadores (como cache, bases de datos, servidores de correo electrónico, ...), y que generan parte o todo el documento que ha sido pedido.</div>
 			<div class="col-sm">Un servidor no tiene que ser necesariamente un único equipo físico, aunque si que varios servidores pueden estar funcionando en un único computador. En el estándar HTTP/1.1 y Host , pueden incluso compartir la misma dirección de IP.</div>
 		</div>
-		<h2>Proxies:</h2><br>
-		<div class="row">
-			<div class="col-sm-4">Un proxy es un equipo informático que hace de intermediario entre las conexiones de un cliente y un servidor de destino, filtrando todos los paquetes entre ambos. Siendo tú el cliente, esto quiere decir que el proxy recibe tus peticiones de acceder a una u otra página, y se encarga de transmitírselas al servidor de la web para que esta no sepa que lo estás haciendo tú.</div>
+		<div class="row" id="prox">
+			<div class="col-sm-4"><h2>Proxies:</h2><br>Un proxy es un equipo informático que hace de intermediario entre las conexiones de un cliente y un servidor de destino, filtrando todos los paquetes entre ambos. Siendo tú el cliente, esto quiere decir que el proxy recibe tus peticiones de acceder a una u otra página, y se encarga de transmitírselas al servidor de la web para que esta no sepa que lo estás haciendo tú.</div>
 			<div class="col-sm-4">Los proxies son utilizados muy a menudo para acceder a servicios que tienen bloqueado su contenido en determinado país. Por ejemplo, si una web no ofrece determinado contenido en tu país pero sí en otro, haciéndote pasar por un internauta de ese otro país puedes acceder a él.</div>
 			<div class="col-sm-4">Realizan varias funciones:
 				<ul>
@@ -62,6 +60,10 @@
 					<li>registro de eventos (para tener un histórico de los eventos que se producen)</li>
 				</ul>
 			</div>
+			<div class="btn" >
+			<button id="btn_2">Toca aqui</button>
+			<img class="col-sm-12" id="img2" src="img/proxie.jpg">
+		    </div>
 		</div>
 	</div>
 	<script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>

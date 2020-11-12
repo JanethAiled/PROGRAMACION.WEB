@@ -15,16 +15,23 @@ body{
 #titulo{
 	background-color: #F9E5DA;
 }
-#img1{
-	visibility: hidden;
+#img1, #img2{
+  visibility: hidden;
 }
-#btn_1{
+#btn_1, #btn_2{
 	background-color: white;
 	color: black;
 	border: 1px white; 
 	margin-top: 10px;
-	padding: 9px;
-		
+	margin-bottom: 10px;
+	padding: 7px;
+	padding-right: 34px;	
+}
+.btn{
+	text-align: center;
+}
+#prrf_1, #prox{
+	background-color: #F3DECA;
 }
 
 
